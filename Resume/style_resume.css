@@ -67,14 +67,14 @@ body {
 
 .social-icons li a i {
     /*color: red;*/
-    padding: 10px 10px 20px 10px;
-    font-size: 1.5rem;
+    padding: 10px;
+    font-size: 1rem;
     border-radius: 50%;
 }
 
 
 .social-icons li a i:hover {
-    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    box-shadow: 0px 0px 6px 2px rgba(230, 196, 196, 0.3);
 }
 
 /*About Section*/
@@ -243,3 +243,38 @@ section:nth-child(2n){
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
 }
+
+/* Contact section */
+
+#contact{
+    width:100vw;
+    height:500px;
+    background:linear-gradient(70deg, #2857a4, #403066) ;
+}
+#contact h1 span{
+    color: white;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 70%;
+    padding:20px;
+}
+.info-section form input:focus{
+    outline:none;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+    margin:1rem;
+  }
+  .info-section form button{
+    border:1px solid white;
+  }
