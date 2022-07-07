@@ -1,0 +1,20 @@
+.container{
+    width:30px;
+    height:auto;
+    border:1px solid black;
+    /* overflow-wrap is used to adjust text based on the contianer. */
+    overflow-wrap: break-word;
+}
+
+.container1{
+    height:400px;
+    width:400px;
+    margin:40px;
+    border: 2px solid black;
+    /* You can add percentage in the linear gradiant */
+    /* You can add 'to right' or 'to top' or 'top right' for diagonal for direction of the gradiant */
+    /* background-image: linear-gradient(to bottom left, lightgreen 10%, yellow,purple 100%); */
+    /* You can also mention the direction in degree like 120deg */
+    /* background: repeating-linear-gradient(to top right, red, blue, green 10px); */
+    background: radial-gradient(red 50px, green 120px, blue 10px);
+}
